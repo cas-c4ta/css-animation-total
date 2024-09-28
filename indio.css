@@ -1,0 +1,131 @@
+#indio-1 #josef {
+  transform-origin: top left;
+  animation-name: test1;
+  animation-duration: 1000ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes test1 {
+  from { transform: translate(0px, 0px); }
+  to { transform: translate(100px, 100px); }
+}
+
+
+#indio-2 #weissrechteck {
+  transform-origin: 40%;
+  animation-name: test2;
+  animation-duration: 6000ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes test2 {
+  from { transform: rotate(0);}
+  to { transform: rotate(-360deg); }
+  from { opacity: 100%;}
+  to {opacity: 0%;}
+}
+
+#indio-2 #schwarzrechteck {
+  transform-origin: 40%;
+  animation-name: test2a;
+  animation-duration: 6000ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes test2a {
+  from { opacity: 0%;}
+  to {opacity: 100%;}
+}
+
+
+#indio-3 #zuckerstock2 {
+  transform-origin: 40%;
+  animation-name: test3a;
+  animation-duration: 500ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes test3a {
+  from { opacity: 100%;}
+  to {opacity: 50%;}
+}
+
+#indio-3 #zuckerstock1 {
+  transform-origin: bottom left;
+  animation-name: test3;
+  animation-duration: 2000ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes test3 {
+  from {transform: scale(0%);}
+  to {transform: scale(300%);}
+}
+
+#indio-5 #lypsy1 {
+  transform-origin: center;
+  animation-name: test5;
+  animation-duration: 2000ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes test5 {
+  from { transform: rotate(0); }
+  to { transform: rotate(360deg); }
+}
+
+#indio-5 #lypsy2 {
+  transform-origin: center;
+  animation-name: test5a;
+  animation-duration: 700ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes test5a {
+  from { transform: rotate(0); }
+  to { transform: rotate(-360deg); }
+}
+
+#indio-6 #dreieck {
+  transform-origin: 500px 250px;
+  animation-name: test6;
+  animation-duration: 5000ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear; 
+}
+
+@keyframes test6 {
+  from { transform: rotate(0); }
+  to { transform: rotate(-360deg); }
+}
+
+
+
+
+#indio-4 #YB {
+  transform-origin: 650px;
+  animation-name: test4;
+  animation-duration: 1000ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes test4 {
+  from { transform: scale(0%); }
+  to { transform: scale(400%); }
+}

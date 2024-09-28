@@ -1,0 +1,144 @@
+#echo-1 circle {
+  animation-name: echo-1-animation-1;
+  transform-origin: 50% 50%;
+  animation-iteration-count: infinite;
+  animation-duration: 550ms;
+
+}
+
+@keyframes echo-1-animation-1 {
+  from {
+    transform: scale(1) rotate(0deg);
+  }
+  to {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+#echo-2  {
+  animation-name: echo-2 ;
+  transform-origin: 50% 50%;
+  animation-iteration-count: infinite;
+  animation-duration: 950ms;
+
+}
+
+@keyframes echo-2 {
+  from {
+    transform: scale(-2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+
+#echo-3 {
+  animation-name: echo-3;
+  transform-origin: center;
+  animation-iteration-count: infinite;
+  animation-duration: 950ms;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes echo-3 {
+  from {
+    transform: translateX(100px) scale(1);
+  }
+  to {
+    transform: translateX(200px) scale(1); /* Hier scale(1) anstatt scaleY(1) */
+  }
+}
+
+
+#echo-4  {
+  animation-name: echo-4 ;
+  transform-origin: center;
+  animation-iteration-count: infinite;
+  animation-duration: 950ms;
+  
+
+}
+
+@keyframes echo-4 {
+  from {
+    transform: translateX(50px) scale(0.5);
+  }
+  to {
+    transform: translateX(100px) scaleY(1);
+  }
+}
+
+
+#echo-5  {
+  animation-name: echo-5 ;
+  transform-origin: center;
+  animation-iteration-count: infinite;
+  animation-duration: 950ms;
+  
+
+}
+
+@keyframes echo-5 {
+  from {
+    transform: rotate(45deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+#echo-6  {
+  animation-name: echo-6 ;
+  transform-origin: center;
+  animation-iteration-count: infinite;
+  animation-duration: 950ms;
+  
+
+}
+
+@keyframes echo-6 {
+  from {
+    transform: rotate(45deg);
+  }
+  to {
+    transform: rotate(-90deg);
+  }
+}
+
+
+#echo-8 {
+  animation-name: echo-8 ;
+  transform-origin: center;
+  animation-iteration-count: infinite;
+  animation-duration: 950ms;
+  
+
+}
+
+@keyframes echo-8 {
+  from {
+    transform: rotate(45deg);
+  }
+  to {
+    transform: rotate(-90deg);
+  }
+}
+
+#echo-7  {
+  animation-name: echo-7 ;
+  transform-origin: center;
+  animation-iteration-count: infinite;
+  animation-duration: 950ms;
+  
+
+}
+
+@keyframes echo-7 {
+  0%{
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg)
+  }
+}

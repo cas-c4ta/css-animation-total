@@ -1,0 +1,236 @@
+/* bravo 1 joëlle */
+
+#bravo-1 #path-1 {
+  transform-origin: 50% 50%;
+  animation-name: bravo-animation-1;
+  animation-duration: 1s; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+#bravo-1 #path-2 {
+  transform-origin: 50% 50%;
+  animation-name: bravo-animation-2;
+  animation-duration: 1s; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bravo-animation-1 {
+  from { transform: translate(0px); }
+  to { transform: translate(120px); }
+}
+
+#bravo-1 #path-3 {
+  transform-origin: 50% 50%;
+  animation-name: bravo-animation-2;
+  animation-duration: 1s; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+#bravo-1 #path-4 {
+  transform-origin: 50% 50%;
+  animation-name: bravo-animation-1;
+  animation-duration: 1s; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bravo-animation-2 {
+  from { transform: translate(120px); }
+  to { transform: translate(0px); }
+}
+
+#bravo-2 #bravo-2p {
+  transform-origin: 50% 50%;
+  animation-name: bravo-animation-3;
+  animation-duration: 2s; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bravo-animation-3 {
+  from { transform: rotate(0deg) scale(0); }
+  to { transform: rotate(180deg) scale(0.8); fill: #07FF03}
+}
+
+/* #bravo-2:hover #bravo-2p {animation-play-state: paused;} */
+
+#bravo-3 #path-5, #bravo-3 #path-7 {
+  transform-origin: 30% -120%;
+  animation-name: bravo-animation-4;
+  animation-duration: 3s; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bravo-animation-4 {
+  from { transform: rotate(0) skew(45deg) }
+  to { transform: rotate(30px) skew(0deg) }
+}
+
+
+#bravo-3 #path-6 {
+  transform-origin: -30% -120%;
+  animation-name: bravo-animation-5;
+  animation-duration: 3s; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bravo-animation-5 {
+  from { opacity: 0; transform: rotate(0) skew(45deg) ;}
+  to { opacity: 100%; transform: rotate(30) skew(0deg) ; }
+}
+
+#bravo2 #bravo-2bg {
+  animation-name: bravo-animation-6;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bravo-animation-6 {
+  from { }
+  to { fill: #633CFF}
+}
+
+/* bravo 2, angela */
+
+#bravo-4 #path-1 {
+  animation-name: bravo-animation-4;
+  transform-origin: 80% 10%;
+  animation-duration: 6s; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+#bravo-4 #path-2 {
+  animation-name: bravo-animation-4;
+  transform-origin: 20% 90%;
+  animation-duration: 20s; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: linear;
+}
+
+@keyframes bravo-animation-4 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#bravo-6 #circle-10 {
+  animation-name: bravo-animation-5;
+  transform-origin: 50% 50%;
+  animation-duration: 2s; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bravo-animation-5 {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+#bravo-6 #circle-20 {
+  animation-name: bravo-animation-7;
+  transform-origin: 50% 50%;
+  animation-duration: 2s; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bravo-animation-7 {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(10);
+  }
+}
+
+#bravo-5 circle {
+  animation-name: bravo-animation-6;
+  transform-origin: 50% 50%;
+  animation-duration: 5s; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  opacity: 0;
+}
+
+#bravo-5 #circle-1 {
+  animation-delay: 1s;
+  animation-duration: 1.8s;
+}
+
+#bravo-5 #circle-2 {
+  animation-delay: 0.12s;
+
+  animation-duration: 2.5s;
+}
+
+#bravo-5 #circle-3 {
+  animation-delay: 0.11s;
+
+  animation-duration: 3.2s;
+}
+
+#bravo-5 #circle-4 {
+  animation-delay: 0.1s;
+}
+
+#bravo-5 #circle-5 {
+  animation-delay: 0.9s;
+}
+
+#bravo-5 #circle-6 {
+  animation-delay: 1s;
+}
+
+#bravo-5 #circle-7 {
+  animation-delay: 0.2s;
+}
+
+#bravo-5 #circle-8 {
+  animation-delay: 0.2s;
+}
+
+#bravo-5 #circle-9 {
+  animation-delay: 0.2s;
+}
+
+@keyframes bravo-animation-6 {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(20%, 20%);
+  }
+}

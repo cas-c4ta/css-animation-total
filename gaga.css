@@ -1,0 +1,197 @@
+@keyframes gaga-animation-1 {
+  from { transform: scale(.5); }
+  to { transform: scale(1.25); }
+}
+
+#gaga-1 #kreis-weiss {
+  transform-origin: 50% 100px;
+  animation-name: gaga-animation-1;
+  animation-duration: 1000ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+#gaga-1 #kreis-vio {
+  transform-origin: 50% 120%;
+  animation-name: gaga-animation-1;
+  animation-duration: 1000ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes gaga-animation-51 {
+  from { transform: scaleY(1); }
+  to { transform: scaleY(1.95); }
+}
+
+#gaga-5 #triangle-black {
+  transform-origin: 50% 86%;
+  animation-name: gaga-animation-51;
+  animation-duration: 1000ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+@keyframes gaga-animation-52 {
+  from { transform: scaleY(1); }
+  to { transform: scaleY(0.58); }
+}
+
+#gaga-5 #triangle-blue {
+  transform-origin: 50% 86%;
+  animation-name: gaga-animation-52;
+  animation-duration: 1000ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;
+}
+
+
+@keyframes gaga-animation-31 {
+  from { transform: rotate(1); }
+  to { transform: rotate(-180deg); }
+}
+
+#gaga-3 #rect-gelb {
+  transform-origin: 50% 50%;
+  animation-name: gaga-animation-31;
+  animation-duration: 2000ms; 
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
+  }
+
+
+
+@keyframes gaga-animation-32 {
+  0% { transform: translate(0,0); }
+  25% { transform: translate(0,-50%);  }
+  50% { transform: translate(50%,-50%);  }
+  75% { transform: translate(50%,0);  }
+}
+
+#gaga-3 #rect-blau {
+  transform-origin: 50% 100%;
+  animation-name: gaga-animation-32;
+  animation-duration: 2000ms; 
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-in;
+} 
+
+
+@keyframes gaga-animation-33 {
+  from { transform: rotate(0); }
+  to { transform: rotate(90deg); }
+}
+
+#gaga-3 #rect-schwarz {
+  transform-origin: 50% 20%;
+  animation-name: gaga-animation-33;
+  animation-duration: 1000ms; 
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+}
+
+@keyframes gaga-animation-71 {
+  from { fill: #633CFF; }
+  to { fill: #ffff55; }
+}
+
+#gaga-7 #tri-blau {
+  transform-origin: 50% 86%;
+  animation-name: gaga-animation-71;
+  animation-duration: 2000ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+}
+
+
+
+@keyframes gaga-animation-72 {
+  0% { fill: #f28; }
+  25% { fill: #f28;; }
+  100% { fill: #ffff55; }
+}
+
+#gaga-7 #tri-rot {
+  transform-origin: 50% 86%;
+  animation-name: gaga-animation-72;
+  animation-duration: 2000ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+}
+
+
+
+@keyframes gaga-animation-73 {
+  0% { fill: #1d1d1d; }
+  50% { fill: #1d1d1d;; }
+  100% { fill: #ffff55; }
+}
+
+#gaga-7 #tri-schwarz {
+  transform-origin: 50% 86%;
+  animation-name: gaga-animation-73;
+  animation-duration: 2000ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: ease-in-out;
+}
+
+
+
+
+
+@keyframes gaga-animation-41 {
+  from { transform: rotate(0) translateY(0%)}
+  to { transform: rotate(150deg) translateY(-30%);
+  }
+}
+
+#gaga-4 #tria-schwarz {
+  transform-origin: 35% 47.75%;
+  animation-name: gaga-animation-41;
+  animation-duration: 2000ms; 
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.83, 0, 0.17, 1);
+}
+
+
+@keyframes gaga-animation-42 {
+  from { transform: rotate(0) translateY(0%)}
+  to { transform: rotate(84deg) translateY(-40%);
+  }
+}
+
+#gaga-4 #tria-gelb {
+  transform-origin: 28% 30%;
+  animation-name: gaga-animation-42;
+  animation-duration: 2000ms; 
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.83, 0, 0.17, 1);
+}
+
+
+@keyframes gaga-animation-43 {
+  from { transform: rotate(0) translateY(0%)}
+  to { transform: rotate(-120deg) translateY(0%);
+  }
+}
+
+#gaga-4 #tria-rot {
+  transform-origin: 50% 59.2%;
+  animation-name: gaga-animation-43;
+  animation-duration: 2000ms; 
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: cubic-bezier(0.83, 0, 0.17, 1);
+}

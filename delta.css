@@ -1,0 +1,154 @@
+#delta-1 #path-2 {
+  transform-origin: 50% 50%;
+  animation-name: delta-animation-1;
+  animation-duration: 1000ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate; */
+  animation-timing-function: linear;
+}
+
+@keyframes delta-animation-1 {
+  /* from { transform: scale(1); }
+  50% {transform: rotate(200deg);}
+  to { transform: scale(0.25); } */
+  0% {
+    transform: scale(1) rotate(0);
+  }
+  50% {
+    transform: scale(2) rotate(180deg);
+  }
+  100% {
+    transform: scale(3) rotate(720deg);
+    opacity: 10%;
+  }
+}
+
+#delta-2 #rect-2 {
+  transform-origin: 50% 50%;
+  animation-name: delta-animation-2;
+  animation-duration: 1500ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate; */
+  animation-timing-function: linear;
+  opacity: 1;
+}
+
+@keyframes delta-animation-2 {
+  0% {
+    transform: scale(1) rotate(0);
+  }
+  50% {
+    transform: scale(3) rotate(180deg);
+    opacity: 10%;
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
+
+#delta-3 #circle-1 {
+  transform-origin: 50% 50%;
+  animation-name: delta-animation-3;
+  animation-duration: 1500ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  opacity: 1;
+  transform: scale(1.9, 1);
+}
+
+#delta-3 #circle-2 {
+  transform-origin: 50% 50%;
+  animation-name: delta-animation-3;
+  animation-duration: 1500ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  opacity: 1;
+  transform: scale(1.9, 1);
+}
+
+@keyframes delta-animation-3 {
+  0% {
+    transform: scale(1) rotate(0);
+  }
+  50% {
+    transform: scale(1);
+    opacity: 100%;
+  }
+}
+
+#delta-4 #path-yellow {
+  transform-origin: 50% 50%;
+  animation-name: delta-animation-4;
+  animation-duration: 1500ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  opacity: 1;
+  transform: scale(3, 0.25);
+}
+
+@keyframes delta-animation-4 {
+  0% {
+    transform: scale(1) rotate(0);
+    fill: rgb(255, 34, 136);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+#delta-5 #form-yellow {
+  transform-origin: 50% 50%;
+  animation-name: delta-animation-5;
+  animation-duration: 1500ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  opacity: 1;
+  translate: 0 10px;
+}
+
+@keyframes delta-animation-5 {
+  0% {
+    transform: scale(1) rotate(0);
+    /* fill: rgb(255, 34, 136); */
+  }
+  100% {
+    transform: scale(0.5, 0.9);
+    transform: scale(0.5, 0.7) rotate(-30deg);
+  }
+}
+
+#delta-5 #form-white {
+  transform-origin: 50% 50%;
+  animation-name: delta-animation-6;
+  animation-duration: 1500ms; /* Dauer immer ein mehrfaches von 500ms */
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /* animation-timing-function: ease-in; */
+  opacity: 1;
+  /* transform: scale(0.5, 0.9); */
+}
+
+@keyframes delta-animation-6 {
+  0% {
+    transform: scale(1) rotate(360deg);
+  }
+  /* fill: rgb(255, 34, 136); */
+  99% {
+    transform: scale(1);
+  }
+}
+
+/* 
+
+     o               oooo        o8                                       
+    888     ooooooo   888ooooo o888oo oooo  oooo  oo oooooo     oooooooo8 
+   8  88  888     888 888   888 888    888   888   888   888  888    88o  
+  8oooo88 888         888   888 888    888   888   888   888   888oo888o  
+o88o  o888o 88ooo888 o888o o888o 888o   888o88 8o o888o o888o 888     888 
+                                                               888ooo888  
+👉 Jedem Selektor die ID voranstellen
+*/
